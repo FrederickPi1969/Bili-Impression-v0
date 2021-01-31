@@ -1,0 +1,6 @@
+numpy
+scipy
+requests<2.19.0,>=2.18.4
+beautifulsoup4==4.9.3
+wordcloud
+
