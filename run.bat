@@ -6,13 +6,11 @@ setlocal EnableDelayedExpansion
 echo Preparing environment...
 chcp 936
 set "sep===================================================================================================================="
-set root="%~dp0" 
+set root="%~dp0"  
 echo Working directory set to %root%
-:: needs to be modified!
-set "python=C:\Users\pixin\anaconda3\python.exe"
-@REM set "python=%root%PyBin\python.exe"
 
-echo Using %python% as python
+set /p python=<config.ini
+echo Using "%python%" as default python.exe
 pause
 cls 
 
@@ -177,4 +175,4 @@ echo Thank you for using Bili-Impression!
 echo Press any key to finish the program. 
 pause > NUL
 endLocal
-exit /b
+exit
