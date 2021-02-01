@@ -30,7 +30,19 @@ It should be easy to follow the instruction in the batch files.
 
 <img src="./example_wordclouds/印象-大SAO.png"/>
 
+## Query: 喜羊羊
+
+
+<img src="./example_wordclouds/印象-喜羊羊.png"/>
+
+
+
+
 ### Query: 明日方舟
 
-
 <img src="./example_wordclouds/印象-明日方舟.png"/>
+
+
+## Query: 五六七
+
+<img src="./example_wordclouds/印象-五六七.png"/>
